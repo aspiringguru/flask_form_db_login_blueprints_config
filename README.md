@@ -19,6 +19,7 @@ python3 --version
 pip install flask
 pip freeze
 
+add .gitignore and setup git repo, exclude the environment directory  
 
 create simplest possible version of flask app
 
@@ -34,3 +35,6 @@ nb: use vim editor to avoid <CR> dos2unix syntax related errors.
 simplest demo > start.sh configure with > FLASK_APP=simplest_app.py
 
 then upgrade to use application
+
+
+pip install Flask-Assets
